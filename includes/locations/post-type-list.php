@@ -397,7 +397,7 @@ class acfe_location_post_type_list{
             
         }
         
-        $choices = array('all' => __('All', 'acf'));
+        $choices = array('all' => __('All', 'acfe'));
 		$choices = array_merge($choices, $pretty_post_types);
         
         return $choices;

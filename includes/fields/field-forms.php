@@ -63,8 +63,8 @@ class acfe_field_forms extends acf_field{
         
         // field_type
         acf_render_field_setting($field, array(
-            'label'			=> __('Appearance','acf'),
-            'instructions'	=> __('Select the appearance of this field', 'acf'),
+            'label'			=> __('Appearance','acfe'),
+            'instructions'	=> __('Select the appearance of this field', 'acfe'),
             'type'			=> 'select',
             'name'			=> 'field_type',
             'optgroup'		=> true,

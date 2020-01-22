@@ -403,7 +403,7 @@ function acfe_options_edit_metabox(){
             $type = __('<code style="font-size:11px;float:right; line-height:1.2; margin-top:1px;">string</code>', 'acfe');
         
         $fields[] = array(
-            'label'             => __('Value ', 'acfe') . $type,
+            'label'             => __('Value', 'acfe') . $type,
             'key'               => 'field_acfe_options_edit_value',
             'name'              => 'field_acfe_options_edit_value',
             'type'              => 'text',

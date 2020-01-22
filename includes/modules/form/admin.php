@@ -1379,7 +1379,7 @@ function my_<?php echo $_form_name; ?>_submit($form, $post_id){
                         
                         $action_name = get_sub_field('acfe_form_custom_action');
                         
-                        $customs[] = '<span class="acf-js-tooltip dashicons dashicons-editor-code" title="' . __('Custom action: ', 'acfe') . $action_name . '"></span>';
+                        $customs[] = '<span class="acf-js-tooltip dashicons dashicons-editor-code" title="' . __('Custom action:', 'acfe') . ' ' . $action_name . '"></span>';
                         $found = true;
                         
                     }
@@ -1387,7 +1387,7 @@ function my_<?php echo $_form_name; ?>_submit($form, $post_id){
                     // E-mail
                     elseif(get_row_layout() === 'email'){
                         
-                        $emails[] = '<span class="acf-js-tooltip dashicons dashicons-email" title="' . __('Email ', 'acfe') . '"></span>';
+                        $emails[] = '<span class="acf-js-tooltip dashicons dashicons-email" title="' . __('Email', 'acfe') . '"></span>';
                         $found = true;
                         
                     }

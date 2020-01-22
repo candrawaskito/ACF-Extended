@@ -197,7 +197,7 @@ class acfe_form_front{
 			'custom_html'           => '',
 			'html_after_fields'		=> '',
 			'form_submit'           => true,
-			'submit_value'			=> __('Update', 'acf'),
+			'submit_value'			=> __('Update', 'acfe'),
 			'html_submit_button'	=> '<input type="submit" class="acf-button button button-primary button-large" value="%s" />',
 			'html_submit_spinner'	=> '<span class="acf-spinner"></span>',
             

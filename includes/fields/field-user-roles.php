@@ -68,7 +68,7 @@ class acfe_field_user_roles extends acf_field{
             'name'			=> 'field_type',
             'optgroup'		=> true,
             'choices'		=> array(
-                'checkbox'  => __('Checkbox', 'acf'),
+                'checkbox'  => __('Checkbox', 'acfe'),
                 'radio'     => __('Radio Buttons', 'acfe'),
                 'select'    => _x('Select', 'noun', 'acfe')
             )

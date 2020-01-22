@@ -57,11 +57,11 @@ class ACFE_Admin_Tool_Import_DOP extends ACF_Admin_Tool{
 		
 		// Check errors.
 		if($file['error'])
-			return acf_add_admin_notice(__("Error uploading file. Please try again", 'acf'), 'warning');
+			return acf_add_admin_notice(__("Error uploading file. Please try again", 'acfe'), 'warning');
 		
 		// Check file type.
 		if(pathinfo($file['name'], PATHINFO_EXTENSION) !== 'json')
-			return acf_add_admin_notice(__("Incorrect file type", 'acf'), 'warning');
+			return acf_add_admin_notice(__("Incorrect file type", 'acfe'), 'warning');
 		
 		// Read JSON.
 		$json = file_get_contents($file['tmp_name']);

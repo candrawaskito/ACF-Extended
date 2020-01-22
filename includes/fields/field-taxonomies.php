@@ -127,7 +127,7 @@ class acfe_field_taxonomies extends acf_field{
             'instructions'	=> __('Appears within the input','acfe'),
             'type'			=> 'text',
             'name'			=> 'placeholder',
-            'placeholder'   => _x('Select', 'verb', 'acf'),
+            'placeholder'   => _x('Select', 'verb', 'acfe'),
             'conditional_logic' => array(
                 array(
                     array(

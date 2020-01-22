@@ -199,7 +199,7 @@ class ACFE_Admin_Tool_Export_DOP extends ACF_Admin_Tool{
                             
                             // tooltip
                             acf.newTooltip({
-                                text: 		"<?php _e('Copied', 'acf' ); ?>",
+                                text: 		"<?php _e('Copied', 'acfe'); ?>",
                                 timeout:	250,
                                 target: 	$(this),
                             });
